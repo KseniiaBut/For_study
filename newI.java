@@ -17,10 +17,11 @@ public class newI
   }
  
   public static void main(String[] args)
-  {Scanner scan = new Scanner(System.in);
+  {int answear;
+
+    Scanner scan = new Scanner(System.in);
     System.out.println("Type a year, which I need to check");
-    int answear;
-    answear = scan.nextInt;
+    answear = scan.nextInt();
     System.out.println(isLeapYear(answear));
   }
 }
